@@ -1,0 +1,89 @@
+=============== Feb 9, 2021 (EST) ===============
+18:38:52.517242 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:38:52.524253 db@open opening
+18:38:52.526217 version@stat F·[] S·0B[] Sc·[]
+18:38:52.528212 db@janitor F·2 G·0
+18:38:52.528212 db@open done T·3.9584ms
+18:38:52.541175 db@close closing
+18:38:52.541175 db@close done T·0s
+=============== Feb 9, 2021 (EST) ===============
+18:53:52.972509 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:53:52.973472 version@stat F·[] S·0B[] Sc·[]
+18:53:52.973472 db@open opening
+18:53:52.974469 journal@recovery F·1
+18:53:52.983472 journal@recovery recovering @1
+18:53:52.988431 memdb@flush created L0@2 N·15 S·1KiB "H\xbd\xa7..9w>,v8":"\xc1\x1d\xda..\xad#.,v5"
+18:53:52.998406 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+18:53:53.007391 db@janitor F·3 G·0
+18:53:53.007391 db@open done T·33.9186ms
+18:53:53.566404 db@close closing
+18:53:53.567391 db@close done T·987.7µs
+=============== Feb 9, 2021 (EST) ===============
+18:57:51.522092 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:57:51.523119 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+18:57:51.523119 db@open opening
+18:57:51.523119 journal@recovery F·1
+18:57:51.532066 journal@recovery recovering @3
+18:57:51.537062 memdb@flush created L0@5 N·3 S·497B "Dat..ion,v17":"cli..9w>,v19"
+18:57:51.547053 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+18:57:51.556998 db@janitor F·4 G·0
+18:57:51.556998 db@open done T·33.8797ms
+22:03:11.802878 db@close closing
+22:03:11.803876 db@close done T·997.7µs
+=============== Feb 9, 2021 (EST) ===============
+22:26:30.003959 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:26:30.004955 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+22:26:30.004955 db@open opening
+22:26:30.004955 journal@recovery F·1
+22:26:30.015914 journal@recovery recovering @6
+22:26:30.021897 memdb@flush created L0@8 N·1 S·216B "Las..der,v21":"Las..der,v21"
+22:26:30.035374 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+22:26:30.044357 db@janitor F·5 G·0
+22:26:30.044357 db@open done T·39.4028ms
+22:26:30.728369 db@close closing
+22:26:30.728369 db@close done T·0s
+=============== Feb 9, 2021 (EST) ===============
+22:30:49.442976 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:30:49.443963 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+22:30:49.443963 db@open opening
+22:30:49.443963 journal@recovery F·1
+22:30:49.454934 journal@recovery recovering @9
+22:30:49.457925 memdb@flush created L0@11 N·1 S·216B "Las..der,v23":"Las..der,v23"
+22:30:49.468897 version@stat F·[4] S·1KiB[1KiB] Sc·[1.00]
+22:30:49.476876 db@janitor F·6 G·0
+22:30:49.476876 db@open done T·32.9132ms
+22:30:49.476876 table@compaction L0·4 -> L1·0 S·1KiB Q·24
+22:30:49.478870 table@build created L1@14 N·17 S·1KiB "Dat..ion,v17":"\xc1\x1d\xda..\xad#.,v5"
+22:30:49.478870 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+22:30:49.479873 table@compaction committed F-3 S-656B Ke·0 D·3 T·2.9976ms
+22:30:49.480864 table@remove removed @8
+22:30:49.481861 table@remove removed @5
+22:30:49.482858 table@remove removed @2
+22:30:50.031429 db@close closing
+22:30:50.031429 db@close done T·0s
+=============== Feb 9, 2021 (EST) ===============
+22:32:48.159902 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:32:48.160897 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+22:32:48.160897 db@open opening
+22:32:48.160897 journal@recovery F·1
+22:32:48.440707 journal@recovery recovering @12
+22:32:48.443671 memdb@flush created L0@15 N·1 S·216B "Las..der,v25":"Las..der,v25"
+22:32:48.724065 version@stat F·[1 1] S·1KiB[216B 1KiB] Sc·[0.25 0.00]
+22:32:48.732020 db@janitor F·5 G·1
+22:32:48.732020 db@janitor removing table-11
+22:32:48.733017 db@open done T·572.1209ms
+=============== Feb 10, 2021 (EST) ===============
+00:25:29.008176 db@close closing
+00:25:29.009174 db@close done T·997.7µs
+=============== Feb 10, 2021 (EST) ===============
+01:37:32.765493 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:37:32.766488 version@stat F·[1 1] S·1KiB[216B 1KiB] Sc·[0.25 0.00]
+01:37:32.766488 db@open opening
+01:37:32.766488 journal@recovery F·1
+01:37:32.777463 journal@recovery recovering @16
+01:37:32.780451 memdb@flush created L0@18 N·10 S·643B "Hch..3D\xf8,v30":"r\x00\x00..3D\xf8,v32"
+01:37:32.790425 version@stat F·[2 1] S·2KiB[859B 1KiB] Sc·[0.50 0.00]
+01:37:32.799400 db@janitor F·5 G·0
+01:37:32.799400 db@open done T·32.9119ms
+01:45:27.221722 db@close closing
+01:45:27.221722 db@close done T·0s
